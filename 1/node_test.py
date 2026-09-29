@@ -88,3 +88,6 @@ def main(args=None):                                      # 程序主入口
 
 if __name__ == '__main__':                                # 只有“直接 python3 node_test.py”时才执行下面一行
     main()                                                # 调用主入口；被 import 时不会自动运行
+
+# 定义类 = 往工具箱里放工具（on_timer、on_chatter、on_cmd...）
+# _init__ = 说明书，告诉你"该怎么用这些工具"
